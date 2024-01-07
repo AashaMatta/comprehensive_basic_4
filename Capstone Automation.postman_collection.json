@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "d25347aa-3a86-401d-8a24-2527083100b4",
+		"name": "Capstone Automation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31734593",
+		"_collection_link": "https://www.postman.com/bold-shuttle-141920/workspace/sdet-capstone-project/collection/31734593-d25347aa-3a86-401d-8a24-2527083100b4?action=share&source=collection_link&creator=31734593"
+	},
+	"item": [
+		{
+			"name": "https://restcountries.com/v3.1/translation/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/translation/{{country}}",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"translation",
+						"{{country}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
